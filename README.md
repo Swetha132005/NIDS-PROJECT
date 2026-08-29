@@ -1,4 +1,4 @@
-# 🛡️ Network Intrusion Detection System
+# Network Intrusion Detection System
 
 A machine learning based **Network Intrusion Detection System (NIDS)** that analyzes network traffic and detects whether the traffic is **Normal** or potentially represents a **Network Attack**.
 
@@ -6,7 +6,7 @@ The project uses the **NSL-KDD dataset**, a Random Forest machine learning model
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Network Intrusion Detection Systems are used to monitor network traffic and identify suspicious or malicious activity.
 
@@ -19,7 +19,7 @@ The trained model is integrated into a FastAPI backend and connected to a React-
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```text
                     ┌─────────────────────┐
@@ -64,7 +64,7 @@ The trained model is integrated into a FastAPI backend and connected to a React-
 
 ---
 
-## 🧠 Machine Learning Model
+## Machine Learning Model
 
 The project uses a **Random Forest Classifier**.
 
@@ -83,7 +83,7 @@ The Random Forest model consists of multiple decision trees whose predictions ar
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The project uses the **NSL-KDD network intrusion detection dataset**.
 
@@ -108,7 +108,7 @@ These features are processed before being passed to the machine learning model.
 
 ---
 
-## ⚙️ Machine Learning Pipeline
+## Machine Learning Pipeline
 
 The machine learning workflow consists of:
 
@@ -170,7 +170,7 @@ Attack
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 NIDS-PROJECT/
@@ -199,7 +199,7 @@ NIDS-PROJECT/
 
 ---
 
-## 💾 Saved Model Files
+## Saved Model Files
 
 The trained machine learning pipeline uses several serialized files.
 
@@ -223,7 +223,7 @@ These files allow the trained model to be reused without retraining it every tim
 
 ---
 
-# 🚀 Installation and Setup
+# Installation and Setup
 
 ## Prerequisites
 
@@ -237,7 +237,7 @@ Make sure the following are installed:
 
 ---
 
-# 🔹 Backend Setup
+# Backend Setup
 
 Open a terminal in the project directory.
 
@@ -275,7 +275,7 @@ http://127.0.0.1:8000
 
 ---
 
-# 🔹 API Documentation
+# API Documentation
 
 FastAPI automatically provides interactive API documentation.
 
@@ -304,7 +304,7 @@ Example response:
 
 ---
 
-# 🔹 Frontend Setup
+# Frontend Setup
 
 Open another terminal.
 
@@ -334,7 +334,7 @@ http://localhost:5173
 
 ---
 
-# 🖥️ Dashboard Features
+# Dashboard Features
 
 The React dashboard provides:
 
@@ -353,7 +353,7 @@ The React dashboard provides:
 
 ---
 
-# 🔍 Example Prediction
+# Example Prediction
 
 Example network traffic input:
 
@@ -381,7 +381,7 @@ Example output:
 
 ---
 
-# 🔐 Technologies Used
+# Technologies Used
 
 ### Machine Learning
 
@@ -412,7 +412,7 @@ Example output:
 
 ---
 
-# 🎯 Objectives
+# Objectives
 
 The main objectives of this project are:
 
@@ -425,7 +425,7 @@ The main objectives of this project are:
 
 ---
 
-# 🔮 Future Enhancements
+# Future Enhancements
 
 Possible future improvements include:
 
@@ -443,13 +443,13 @@ Possible future improvements include:
 
 ---
 
-# 👩‍💻 Project
+# Project
 
 Network Intrusion Detection System
 
 Built as a cybersecurity and machine learning project using the NSL-KDD dataset.
 
-#Author
+# Author
 Swetha Ulaganathan Jayachitra
 
 
